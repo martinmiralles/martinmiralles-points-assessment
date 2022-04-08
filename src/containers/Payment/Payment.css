@@ -7,3 +7,21 @@
 .paymentColumns {
   display: flex;
 }
+
+@media only screen and (max-width: 696px) {
+  .payment h2 {
+    text-align: center;
+  }
+
+  .paymentColumns {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .orderSummary {
+    margin-top: 1rem;
+    text-align: center;
+    width: 75%;
+  }
+}

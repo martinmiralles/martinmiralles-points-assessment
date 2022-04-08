@@ -3,3 +3,10 @@
   padding: 1rem;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 696px) {
+  .options {
+    display: block;
+    /* margin: 0 auto; */
+  }
+}

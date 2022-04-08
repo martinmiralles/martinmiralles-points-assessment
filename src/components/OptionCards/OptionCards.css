@@ -23,3 +23,11 @@
   margin-top: 0.5rem;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 696px) {
+  .card {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 75%;
+  }
+}
