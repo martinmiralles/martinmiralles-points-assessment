@@ -1,0 +1,64 @@
+.paymentDetails {
+  width: 60%;
+  margin-top: 1rem;
+  padding-right: 2rem;
+}
+
+.paymentDetails a {
+  color: #000;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0rem;
+}
+
+.form-group input,
+.form-group select {
+  margin-top: 0.5rem;
+  padding: 1rem 0.5rem;
+  border: 1px solid #a9a9a8;
+}
+
+.form-group-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  font-family: Arial, Verdana, Georgia, sans-serif;
+}
+
+input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+  margin-right: 1rem;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid #a9a9a8;
+  padding: 1.2rem 3rem;
+  border-radius: 0.3rem;
+  background-color: #000;
+  color: #fff;
+  width: 60%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
