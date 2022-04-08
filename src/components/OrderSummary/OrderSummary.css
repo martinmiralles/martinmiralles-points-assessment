@@ -1,3 +1,34 @@
 .orderSummary {
   width: 40%;
 }
+
+.totalMiles,
+.gstHst,
+.totalCost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalMiles,
+.totalCost {
+  border-top: 1px solid #cfcfcf;
+}
+
+.orderSummary span {
+  font-weight: 700;
+}
+
+.totalMiles {
+  padding-top: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.gstHst {
+  padding-bottom: 0.8rem;
+}
+
+.totalCost {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
