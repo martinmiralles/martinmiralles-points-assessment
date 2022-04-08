@@ -1,11 +1,12 @@
 import React from "react";
 
-import { Header } from "./containers";
+import { Header, Options } from "./containers";
 
 const App = () => {
   return (
     <div>
       <Header />
+      <Options />
     </div>
   );
 };

@@ -1,10 +1,20 @@
 import React from "react";
 import "./Options.css";
 
+import { OptionCards } from "../../components";
+import { cardData } from "../../constants/data";
+
 const Options = () => {
   return (
     <div className="options">
-      <h1>Get your rewards faster. Buy, Gift, or Transfer Miles today!</h1>
+      {cardData.map((card, index) => (
+        <OptionCards
+          key={index}
+          type={card.type}
+          amount={card.amount}
+          cost={card.cost}
+        />
+      ))}
     </div>
   );
 };
